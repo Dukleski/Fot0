@@ -4,7 +4,7 @@
   <head>
 	<meta charset="utf-8" />
 	<meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
     	<title>Фотографирај и Реагирај</title>
 
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
@@ -24,7 +24,7 @@
 		<div data-role="content" id="splash">	
   		<table id="wrapper">
       		<tr>
-         		<td><img width="100%" height="90%"; id="splashPic" src="img/splash1.png"></td>
+         		<td><img width="100%" id="splashPic" src="img/splash1.png"></td>
       		</tr>
    		</table>
 		</div>
@@ -67,45 +67,44 @@
    		<label for = "mejl"><b>Еmail:</b></label>
    		<input data-mini="true" type="email" name="mejl" id="imejl" placeholder="email адреса" style="width:95%; color:#ff9900;"></input></br>
 		
-		</form>
 		
 		<div class="vozrastDiv">
-		<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
-			<legend>
-    			<b>Возраст:</b>
-    		</legend>
-    		<div class="ui-grid-b">
-    		<div class="ui-block-b">
-			<label data-inline="true" style="width: 100%;" for="pod18">под 18</label>
-			<input type="radio" name="vozrast" id="pod18" class="vozrast" value="Под 18 години">
+			<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+				<legend>
+    					<b>Возраст:</b>
+    				</legend>
+    			<div class="ui-grid-b">
+    			<div class="ui-block-b">
+				<label data-inline="true" style="width: 100%;" for="pod18">под 18</label>
+				<input type="radio" name="vozrast" id="pod18" class="vozrast" value="Под 18 години">
 			</div>
 			<div class="ui-block-b">
-			<label data-inline="true" style="width: 100%;" for="18do25">18 - 25</label>
-			<input type="radio" name="vozrast" id="18do25" class="vozrast" value="Од 18 до 25 години">
+				<label data-inline="true" style="width: 100%;" for="18do25">18 - 25</label>
+				<input type="radio" name="vozrast" id="18do25" class="vozrast" value="Од 18 до 25 години">
 			</div>
 			<div class="ui-block-b">
-			<label data-inline="true" style="width: 100%;" for="nad25">над 25</label>
-			<input type="radio" name="vozrast" id="nad25" class="vozrast" value="Над 25 години">
+				<label data-inline="true" style="width: 100%;" for="nad25">над 25</label>
+				<input type="radio" name="vozrast" id="nad25" class="vozrast" value="Над 25 години">
 			</div>
 			</div>
-		</fieldset>
+			</fieldset>
 		</div>
 		<div class="polDiv">
-		<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
-			<legend>
-    			<b>Пол:</b>
-    		</legend>
-    		<div class="ui-grid-a">
-    		<div class="ui-block-b">
-			<label data-inline="true" style="width: 100%;" for="maski">Машки</label>
-			<input type ="radio" name="pol" id="maski" class="pol" value="Машки">
+			<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+				<legend>
+    					<b>Пол:</b>
+    				</legend>
+    			<div class="ui-grid-a">
+    			<div class="ui-block-b">
+				<label data-inline="true" style="width: 100%;" for="maski">Машки</label>
+				<input type ="radio" name="pol" id="maski" class="pol" value="Машки">
 			</div>
 			<div class="ui-block-b">
-			<label data-inline="true" style="width: 100%;" for="zenski">Женски</label>
-			<input type ="radio" name="pol" id="zenski" class="pol" value="Женски">
+				<label data-inline="true" style="width: 100%;" for="zenski">Женски</label>
+				<input type ="radio" name="pol" id="zenski" class="pol" value="Женски">
 			</div>
 			</div>
-		</fieldset>		
+			</fieldset>		
 		</div>
 		
 		<div id="kopceVnesi">
@@ -118,6 +117,7 @@
 		</div>
 		
  		</div>
+ 		</form>
 
 	</div>
  	</div> 	
